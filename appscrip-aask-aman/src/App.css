@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.filter-and-productcard-section{
+  display: flex;
+  flex-direction: row;
+}
+.app-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.discover-product-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    padding: 10px;
+    text-align: center;
+    width: 721px;
+    height: 168px;
+}
+.discover-heading{
+    text-align: center;
+    font-family: Simplon Norm;
+}
+.select-option{
+  padding: 12px;
+  /* border-style: none; */
+  border: 1px solid gray;
+  font-weight: 700;
+}
+/* .filter-arrow-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} */
+.item-filter-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width:20%;
+}
+.filer-button{
+  border-style: none;
+  background-color: transparent;
+  color: #888792;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 50px;
+  font-size: 20px;
+  border-bottom: 3px solid gainsboro;
+}
+.item-filter-recommented-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.item-count-heading{
+  font-size: 30px;
+}
+span{
+  margin-right: 30px;
+}

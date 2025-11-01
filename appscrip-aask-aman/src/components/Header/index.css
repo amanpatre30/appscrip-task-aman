@@ -1,0 +1,54 @@
+.header-container {
+  display: flex;
+  flex-direction: column; /* keep column for nav stacking */
+  align-items: center;
+  padding: 10px 20px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.header-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.vector-image {
+  height: 40px; /* realistic logo height */
+  width: auto; /* maintain aspect ratio */
+}
+
+.icon-image {
+  height: 30px;
+  width: auto;
+}
+
+.nav-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* center nav items */
+  list-style: none;
+  gap: 20px; /* spacing between nav items */
+  margin-top: 40px;
+  padding: 0;
+  width: 40%;
+  font-weight: 700;
+}
+hr{
+    border: 0.01 solid gray;
+    width: 100%;
+    opacity: 40%;
+}
+.discover-product-container{
+    padding: 10px;
+    text-align: center;
+    width: 721px;
+    height: 168px;
+}
+.discover-heading{
+    text-align: center;
+    font-family: Simplon Norm;
+}
+

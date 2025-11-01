@@ -1,0 +1,77 @@
+.footer-container{
+    width: 100%;
+    background-color: black;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-search-heading{
+    color: #ffff;
+    font-size: 20px;
+}
+.footer-seach-paragraph{
+    color: #ffff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-email-input{
+    padding: 10px;
+    font-size: 15px;
+    width: 300px;
+}
+.footer-search-container{
+    display: flex;
+     margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.subscribe-button{
+    /* color: #ffff; */
+    border: 1px solid #ffff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: gray;
+    opacity: 40%;
+    cursor: pointer;
+}
+.footer-contact-container{
+    color: #ffff;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-heading{
+    font-size: 20px;
+}
+.contact-number{
+    font-size: 18px;
+}
+.contact-email{
+    font-size:18px;
+}
+.currency{
+    font-size: 20px;
+}
+.description{
+    font-weight: 100;
+    font-size: 12px;
+}
+.footer-about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-heading-section{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.about-container p{
+    color: #ffff;
+    font-size: larger;
+}
